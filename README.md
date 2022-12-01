@@ -10,6 +10,10 @@ GNOME shell extension to improve the window or application switcher on dual (or 
 
 **Note:** This extension is a fork of https://github.com/gedzeppelin/monitor-window-switcher. I made this fork because the original extension wasn't getting updated for recent GNOME versions. I know almost nothing about JavaScript and GNOME Shell extensions, so I will probably be not able to do much if GNOME does any changes to its extensions API. I also may not be able to fix any bugs if reported. Feel free to do pull requests though!
 
-&nbsp;
+To install the extension run the following command:
 
-Get it on GNOME extensions: https://extensions.gnome.org/extension/4164/monitor-window-switcher/
+    git clone https://github.com/lepa22/monitor-window-switcher-2.git && \
+    mkdir -p ~/.local/share/gnome-shell/extensions/monitor-window-switcher-2@NiKnights.com && \
+    cp -r monitor-window-switcher-2/* ~/.local/share/gnome-shell/extensions/monitor-window-switcher-2@NiKnights.com
+
+Then restart GNOME Shell by pressing <kbd>Alt</kbd>+<kbd>F2</kbd>, entering `r`, and pressing <kbd>Enter</kbd>.
