@@ -12,8 +12,10 @@ GNOME shell extension to improve the window or application switcher on dual (or 
 
 To install the extension run the following commands:
 
+```
 git clone https://github.com/lepa22/monitor-window-switcher-2.git
 mkdir -p ~/.local/share/gnome-shell/extensions/monitor-window-switcher-2@NiKnights.com
 cp -r monitor-window-switcher-2/* ~/.local/share/gnome-shell/extensions/monitor-window-switcher-2@NiKnights.com
+```
 
 Then restart GNOME Shell by pressing <kbd>Alt</kbd>+<kbd>F2</kbd>, entering `r`, and pressing <kbd>Enter</kbd>.
