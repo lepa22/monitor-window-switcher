@@ -6,9 +6,11 @@
         "3.36",
         "3.38",
         "40",
-        "41"
+        "41",
+	"42",
+	"43"
     ],
     "url": "https://github.com/gedzeppelin/monitor-window-switcher",
     "uuid": "monitor-window-switcher@thefungusrocket.com",
-    "version": 6
+    "version": 7
 }
