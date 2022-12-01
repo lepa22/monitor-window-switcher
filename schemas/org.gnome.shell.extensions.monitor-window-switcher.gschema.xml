@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.monitor-window-switcher" path="/org/gnome/shell/extensions/monitor-window-switcher/">
+  <schema id="org.gnome.shell.extensions.monitor-window-switcher-2" path="/org/gnome/shell/extensions/monitor-window-switcher-2/">
     <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
     <key name="ws-current-monitor" type="b">
       <default>true</default>

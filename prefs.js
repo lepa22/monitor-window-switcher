@@ -4,7 +4,7 @@ const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
 const ExtensionUtils = imports.misc.extensionUtils;
 
-var SCHEMA_NAME = "org.gnome.shell.extensions.monitor-window-switcher";
+var SCHEMA_NAME = "org.gnome.shell.extensions.monitor-window-switcher-2";
 
 var Fields = {
   WS_CURRENT_MONITOR_KEY: "ws-current-monitor",
