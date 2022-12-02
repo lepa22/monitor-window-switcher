@@ -1,14 +1,14 @@
 {
     "description": "GNOME shell extension that puts the Window/App switcher on the active monitor (monitor with the cursor).\n\nThis extension is a fork of https://github.com/gedzeppelin/monitor-window-switcher.",
-    "name": "Monitor window switcher 2",
+    "name": "Window/App switcher on active monitor",
     "shell-version": [
         "3.34",
         "3.36",
         "3.38",
         "40",
         "41",
-	"42",
-	"43"
+	    "42",
+	    "43"
     ],
     "url": "https://github.com/lepa22/window-app-switcher-on-active-monitor",
     "uuid": "window-app-switcher-on-active-monitor@NiKnights.com",
