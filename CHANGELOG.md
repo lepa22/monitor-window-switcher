@@ -1,3 +1,9 @@
+## [v7](https://github.com/lepa22/window-app-switcher-on-active-monitor/compare/v6...v7)(2022-12-02)
+
+- Forked original extension
+- Renamed forked exension
+- **extension:** Used `ExtensionUtils.getSettings` instead of custom function
+
 ## [v6](https://github.com/gedzeppelin/monitor-window-switcher/compare/v5...v6) (2021-11-19)
 
 ### Fix
