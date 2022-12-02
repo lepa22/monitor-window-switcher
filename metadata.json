@@ -1,5 +1,5 @@
 {
-    "description": "Improves the window switcher on dual (or more) monitor setups",
+    "description": "GNOME shell extension that puts the Window/App switcher on the active monitor (monitor with the cursor).\n\nThis extension is a fork of https://github.com/gedzeppelin/monitor-window-switcher.",
     "name": "Monitor window switcher 2",
     "shell-version": [
         "3.34",
