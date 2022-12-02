@@ -42,22 +42,8 @@ let asCurrentMonitorSignal;
 let asFilterWorkspaceSignal;
 let asFilterMonitorSignal;
 
-function getSettings() {
-  const schemaDir = Me.dir.get_child("schemas").get_path();
-  const schemaSource = Gio.SettingsSchemaSource.new_from_directory(
-    schemaDir,
-    Gio.SettingsSchemaSource.get_default(),
-    false
-  );
-  const schema = schemaSource.lookup(Prefs.SCHEMA_NAME, false);
-
-  if (!schema) throw new Error("Cannot find schemas");
-
-  return new Gio.Settings({ settings_schema: schema });
-}
-
 function enableSettings() {
-  settings = getSettings();
+  settings = ExtensionUtils.getSettings(Prefs.SCHEMA_NAME);
 
   AS_FILTER_WORKSPACE = settings.get_boolean(AS_FILTER_WORKSPACE_KEY);
   AS_FILTER_MONITOR = settings.get_boolean(AS_FILTER_MONITOR_KEY);
