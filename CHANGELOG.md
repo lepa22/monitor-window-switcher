@@ -1,3 +1,7 @@
+## [v8](https://github.com/lepa22/window-app-switcher-on-active-monitor/compare/v6...v7)(2023-04-18)
+
+- Added support for GNOME 44
+
 ## [v7](https://github.com/lepa22/window-app-switcher-on-active-monitor/compare/v6...v7)(2022-12-02)
 
 - Forked original extension
