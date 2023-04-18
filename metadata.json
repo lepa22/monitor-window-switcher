@@ -8,9 +8,10 @@
         "40",
         "41",
 	    "42",
-	    "43"
+	    "43",
+	    "44"
     ],
     "url": "https://github.com/lepa22/window-app-switcher-on-active-monitor",
     "uuid": "window-app-switcher-on-active-monitor@NiKnights.com",
-    "version": 7
+    "version": 8
 }
